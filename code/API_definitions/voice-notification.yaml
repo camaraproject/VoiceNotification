@@ -43,7 +43,7 @@ info:
 
     # Authorization and authentication
 
-    The "Camara Security and Interoperability Profile" provides details of how an API consumer requests an access token. Please refer to Identity and Consent Management (https://github.com/camaraproject/IdentityAndConsentManagement/) for the released version of the profile.
+    The "Camara Security and Interoperability Profile" provides details of how an API consumer requests an access token. Please refer to Identity and Consent Management (https://github.com/camaraproject/IdentityAndConsentManagement/ ) for the released version of the profile.
 
     The specific authorization flows to be used will be agreed upon during the onboarding process, happening between the API consumer and the API provider, taking into account the declared purpose for accessing the API, whilst also being subject to the prevailing legal framework dictated by local legislation.
 
@@ -61,10 +61,10 @@ info:
   x-camara-commonalities: 0.6
   license:
     name: Apache 2.0
-    url: https://www.apache.org/licenses/LICENSE-2.0.html
+    url: https://www.apache.org/licenses/LICENSE-2.0.html 
 externalDocs:
   description: Project documentation at CAMARA
-  url: https://github.com/camaraproject/VoiceNotification
+  url: https://github.com/camaraproject/VoiceNotification 
 servers:
   - url: "{apiRoot}/cincc/apicall/{vccid}/voicenotify"
     variables:
@@ -143,7 +143,7 @@ components:
   securitySchemes:
     openId:
       type: openIdConnect
-      openIdConnectUrl: https://example.com/.well-known/openid-configuration
+      openIdConnectUrl: https://example.com/.well-known/openid-configuration 
       
   schemas:
     clientId:
@@ -190,7 +190,7 @@ components:
     callBackUrl:
       description: Event notification URL; if not specified, the enterprise's default callback URL will be used. 
       type: string
-      example: "http://10,168.1.30:28089/kt-module-task/kt-module-task/voice/callback"
+      example: "http://10.168.1.30:28089/kt-module-task/kt-module-task/voice/callback"
     recordType:
       description: Recording flag, default is 0, 0 is No recording 1 is Record after the call is connected
       type: string
@@ -294,61 +294,61 @@ components:
       type: string
       example: "0000" 
       enum:
-        - 1000
-        - 1001
-        - 1002
-        - 1003
-        - 1004
-        - 1005
-        - 1006   
-        - 1007
-        - 1008
-        - 1009
-        - 1010
-        - 1011
-        - 1012
-        - 1013
-        - 1100
-        - 1101
-        - 1102
-        - 1999
+        - "1000"
+        - "1001"
+        - "1002"
+        - "1003"
+        - "1004"
+        - "1005"
+        - "1006"   
+        - "1007"
+        - "1008"
+        - "1009"
+        - "1010"
+        - "1011"
+        - "1012"
+        - "1013"
+        - "1100"
+        - "1101"
+        - "1102"
+        - "1999"
     result_201:
       description: success code.
       type: string
       enum:
-        - 0000
+        - "0000"
     result_400:
       description: Bad Request code.
       type: string
       enum:
-        - 1000
-        - 1001
-        - 1002
-        - 1003
-        - 1004
-        - 1005
-        - 1006
-        - 1012
-        - 1013
-        - 1100
-        - 1998
-        - 1999
+        - "1000"
+        - "1001"
+        - "1002"
+        - "1003"
+        - "1004"
+        - "1005"
+        - "1006"
+        - "1012"
+        - "1013"
+        - "1100"
+        - "1998"
+        - "1999"
     result_401:
       description: Unauthorized code.
       type: string
       enum:
-        - 1009
-        - 1010
-        - 1011
+        - "1009"
+        - "1010"
+        - "1011"
     result_403:
       description: Forbidden code.
       type: string
       enum:
-        - 1007
-        - 1008
-        - 1011
-        - 1101
-        - 1102
+        - "1007"
+        - "1008"
+        - "1011"
+        - "1101"
+        - "1102"
         
 
     reqInfo:
@@ -735,4 +735,4 @@ components:
       value:
         status: 403
         code: PERMISSION_DENIED
-        message: Client does not have sufficient permissions to perform this action.   
+        message: Client does not have sufficient permissions to perform this action.    
