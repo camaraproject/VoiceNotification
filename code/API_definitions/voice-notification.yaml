@@ -70,6 +70,9 @@ servers:
       apiRoot:
         default: http://localhost:14900
         description: API root, defined by the service provider, e.g. `api.example.com` or `api.example.com/somepath`
+      vccid:
+        default: "666666"
+        description: "Enterprise VCCID"
 tags:
   - name: Voice Notification Outbound Request
     description: Voice Notification Outbound Request
