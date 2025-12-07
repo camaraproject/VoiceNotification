@@ -729,4 +729,3 @@ components:
         status: 403
         code: PERMISSION_DENIED
         message: Client does not have sufficient permissions to perform this action.
-        
