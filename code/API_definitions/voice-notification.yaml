@@ -455,7 +455,6 @@ components:
           allOf:
             - $ref: "#/components/schemas/collectAction"
       required:
-        - vccId
         - method
         - chargeExt
         - number
@@ -572,13 +571,9 @@ components:
           allOf:
             - $ref: "#/components/schemas/result_400"
       required:
-        - clientId
-        - vccId
-        - seq
-        - method
-        - chargeExt
-        - result
-
+        - message
+        - status
+        - code
     resultParameter_401:
       description: The attribute returned at the end of the session
       type: object
@@ -624,12 +619,9 @@ components:
           allOf:
             - $ref: "#/components/schemas/result_401"
       required:
-        - clientId
-        - vccId
-        - seq
-        - method
-        - chargeExt
-        - result
+        - message
+        - status
+        - code
     resultParameter_403:
       description: The attribute returned at the end of the session
       type: object
@@ -675,12 +667,9 @@ components:
           allOf:
             - $ref: "#/components/schemas/result_403"
       required:
-        - clientId
-        - vccId
-        - seq
-        - method
-        - chargeExt
-        - result
+        - message
+        - status
+        - code
   examples:
     VOICENOTIFY_POST:
       value:
