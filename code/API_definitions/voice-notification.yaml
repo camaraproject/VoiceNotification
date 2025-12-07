@@ -39,7 +39,6 @@ info:
     * **presynth**: TTS preprocessing.
     * **collectParam**: Digit collection parameters.
     * **collectAction**: Definition of subsequent operations after digit collection.
-    
 
     # Authorization and authentication
 
@@ -61,10 +60,10 @@ info:
   x-camara-commonalities: 0.6
   license:
     name: Apache 2.0
-    url: https://www.apache.org/licenses/LICENSE-2.0.html 
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
 externalDocs:
   description: Project documentation at CAMARA
-  url: https://github.com/camaraproject/VoiceNotification 
+  url: https://github.com/camaraproject/VoiceNotification
 servers:
   - url: "{apiRoot}/cincc/apicall/{vccid}/voicenotify"
     variables:
@@ -143,8 +142,7 @@ components:
   securitySchemes:
     openId:
       type: openIdConnect
-      openIdConnectUrl: https://example.com/.well-known/openid-configuration 
-      
+      openIdConnectUrl: https://example.com/.well-known/openid-configuration
   schemas:
     clientId:
       description: Client request ID, which allows empty strings.
@@ -172,23 +170,23 @@ components:
       type: string
       example: "82799605"
     prompt:
-      description: Notification voice description, which can be a fixed voice file, a text description, or a combination of both. 
+      description: Notification voice description, which can be a fixed voice file, a text description, or a combination of both.
       type: string
       example: "<msg><var>7_$$hello，$$is your pick-up code</var></msg>"
     argv:
       description: Variable groups for the notification voice description.
       type: string
-      example: "{\"13800138001\": [\"Allen\", \"123456\"],\"13800138002\": [\"James\",\"234566\"]}"     
+      example: "{\"13800138001\": [\"Allen\", \"123456\"],\"13800138002\": [\"James\",\"234566\"]}"
     repeat:
       description: Playback count, default is 1.
       type: string
-      example: "2"   
+      example: "2"
     callData:
       description: Call-associated data (maximum 255 bytes, single quotes ' are not supported).
       type: string
-      example: "yytz"    
+      example: "yytz"
     callBackUrl:
-      description: Event notification URL; if not specified, the enterprise's default callback URL will be used. 
+      description: Event notification URL; if not specified, the enterprise's default callback URL will be used.
       type: string
       example: "http://10.168.1.30:28089/kt-module-task/kt-module-task/voice/callback"
     recordType:
@@ -735,4 +733,4 @@ components:
       value:
         status: 403
         code: PERMISSION_DENIED
-        message: Client does not have sufficient permissions to perform this action.    
+        message: Client does not have sufficient permissions to perform this action.
