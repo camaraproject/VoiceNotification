@@ -17,27 +17,26 @@ Sandbox API Repository to describe, develop, document, and test the VoiceNotific
 
 * Service API(s) “VoiceNotification” (see APIBacklog.md) 
 * The API(s) provide(s) the API consumer with the ability to:  
-  * §Short API scope description§ !! Add here a scope description according to the API proposal
+  This capability provides users with voice notification services, mainly applied in multiple scenarios such as meeting notifications, express delivery notifications, and online education
 * Describe, develop, document, and test the API(s)
 * Started: May 2025
 <!-- * Incubating stage since: {{incubation date}} --> 
 
-<!-- CAMARA:RELEASE-INFO:START -->
-<!-- The following section is automatically maintained by the CAMARA project-administration tooling: https://github.com/camaraproject/project-administration -->
-
 ## Release Information
 
 The repository has no (pre)releases yet, work in progress is within the main branch.
-<!-- CAMARA:RELEASE-INFO:END -->
+<!-- Optional: an explicit listing of the latest (pre-)release with additional information, e.g. links to the API definitions -->
+<!-- In addition use/uncomment one or multiple the following alternative options when becoming applicable -->
+<!-- Pre-releases of this sub project are available in https://github.com/camaraproject/VoiceNotification/releases -->
+<!-- The latest public release is available here: https://github.com/camaraproject/VoiceNotification/releases/latest -->
+<!-- For changes see [CHANGELOG.md](https://github.com/camaraproject/VoiceNotification/blob/main/CHANGELOG.md) -->
 
 ## Contributing
 
-* Meetings are held virtually <!-- for new, independent Sandbox API repositories request a meeting link from the LF admin team or replace the information with the existing meeting information of the Sub Project -->
-
-  * Schedule: !! tbd
-  * [Registration / Join](https://zoom-lfx.platform.linuxfoundation.org/meetings/telcoapi) !! Update this link with your meeting registration/join link and delete the task
-  * Minutes: Access [meeting minutes](https://lf-camaraproject.atlassian.net/wiki/x/owAbBw) !! update this link to your minutes archive page using the "Share" link and delete the task
+* Meetings are held virtually 
+    * Schedule: Bi-Weekly on Thursday 15:00 CST / 9:00 CEST
+    * [Registration / Join](https://zoom-lfx.platform.linuxfoundation.org/meeting/96148722458?password=617739b1-04e4-4583-9d66-281025ebebb6)
+    * Minutes: Access [Meeting minutes](https://wiki.camaraproject.org/display/CAM/VoiceNotification)
 * Mailing List
-  <!-- Note: the `mailinglistname` is either already existing (for API Repositories within a Sub Projects) or will be created by the CAMARA Admin Team. -->
-  * Subscribe / Unsubscribe to the mailing list <https://lists.camaraproject.org/g/sp-voice-notifcation>.
-  * A message to the community of this Sub Project can be sent using <sp-voice-notifcation@lists.camaraproject.org>.
+    * Subscribe / Unsubscribe to the mailing list of this Sub Project <https://lists.camaraproject.org/g/sp-voice-notifcation>.
+    * A message to the community of this Sub Project can be sent using <sp-voice-notifcation@lists.camaraproject.org>.
