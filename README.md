@@ -35,7 +35,7 @@ The repository has no (pre)releases yet, work in progress is within the main bra
 * Meetings are held virtually 
     * Schedule: Bi-Weekly on Thursday 15:00 CST / 9:00 CEST
     * [Registration / Join](https://zoom-lfx.platform.linuxfoundation.org/meeting/96148722458?password=617739b1-04e4-4583-9d66-281025ebebb6)
-    * Minutes: Access [Meeting minutes](https://wiki.camaraproject.org/display/CAM/VoiceNotification)
+    * Minutes: Access [Meeting minutes](https://lf-camaraproject.atlassian.net/wiki/x/SAAcBw)
 * Mailing List
     * Subscribe / Unsubscribe to the mailing list of this Sub Project <https://lists.camaraproject.org/g/sp-voice-notifcation>.
     * A message to the community of this Sub Project can be sent using <sp-voice-notifcation@lists.camaraproject.org>.
